@@ -1,0 +1,694 @@
+{
+  "builtin_variables": {
+    "Z": {
+      "identifier": "Z",
+      "description": "Zentrifugales Trägheitsmoment",
+      "type": "2D"
+    },
+    "Z0": {
+      "identifier": "Z0",
+      "description": "Fläche einer Figur oder einer geschlossenen Kontur",
+      "type": "2D"
+    },
+    "Z1": {
+      "identifier": "Z1",
+      "description": "Umfang bzw. Länge eines Strecken- /Linien- /Konturzuges",
+      "type": "2D"
+    },
+    "Z2": {
+      "identifier": "Z2",
+      "description": "Winkel (bei jeder Winkeleingabe gesetzt) Spezielle Bedeutung bei variabler Bemaßung haben.",
+      "type": "2D"
+    },
+    "Z3": {
+      "identifier": "Z3",
+      "description": "Länge eines Linienelementes bzw. Distanz (bei jeder Distanzeingabe gesetzt)",
+      "type": "2D"
+    },
+    "Z4": {
+      "identifier": "Z4",
+      "description": "Statisches Moment (Drehmoment) bzgl. Y – Achse Nach Aufruf der Funktion Bemaßungsinfo; Achsenlage bei Streckenmaßen(1=x-parallel, 2=y-parallel, 0=nicht achsenparallel)",
+      "type": "2D"
+    },
+    "Z5": {
+      "identifier": "Z5",
+      "description": "Statisches Moment (Drehmoment) bzgl. X – Achse",
+      "type": "2D"
+    },
+    "Z6": {
+      "identifier": "Z6",
+      "description": "Trägheitsmoment bzgl. Y – Achse",
+      "type": "2D"
+    },
+    "Z7": {
+      "identifier": "Z7",
+      "description": "Trägheitsmoment bzgl. X – Achse",
+      "type": "2D"
+    },
+    "Z8": {
+      "identifier": "Z8",
+      "description": "X Koordinaten des zuletzt angesprochenen Punktes bzw. des Anfangspunk-",
+      "type": "2D"
+    },
+    "Z9": {
+      "identifier": "Z9",
+      "description": "Y tes eines identifizierten Linienelementes",
+      "type": "2D"
+    },
+    "ZA": {
+      "identifier": "ZA",
+      "description": "Aktueller Zoomfaktor",
+      "type": "2D"
+    },
+    "ZB": {
+      "identifier": "ZB",
+      "description": "Anzahl der verspeicherten Passpunkte (beim Laden von Figuren gesetzt);",
+      "type": "2D"
+    },
+    "ZC": {
+      "identifier": "ZC",
+      "description": "X Koordinaten des Endpunktes eines identifizierten Linienelementes",
+      "type": "2D"
+    },
+    "ZD": {
+      "identifier": "ZD",
+      "description": "Y bei jeder Linienidentifikation gesetzt)",
+      "type": "2D"
+    },
+    "ZCX": {
+      "identifier": "ZCX",
+      "description": "X Koordinaten des Identifizierungspunktes bei der Identifizierung von Linien",
+      "type": "2D"
+    },
+    "ZCY": {
+      "identifier": "ZCY",
+      "description": "Y Koordinaten des Identifizierungspunktes bei der Identifizierung von Linien",
+      "type": "2D"
+    },
+    "ZE": {
+      "identifier": "ZE",
+      "description": "ZH Statisches Linienmoment bzgl. X – Achse Statisches Linienmoment bzgl. Y – Achse",
+      "type": "2D"
+    },
+    "ZF": {
+      "identifier": "ZF",
+      "description": "Figur-Maßstab",
+      "type": "2D"
+    },
+    "ZG": {
+      "identifier": "ZG",
+      "description": "Anzahl der Grafikschirme",
+      "type": "2D"
+    },
+    "ZGA1": {
+      "identifier": "ZGA1",
+      "description": "Koordinaten der letzten Gesamtansicht ZI",
+      "type": "2D"
+    },
+    "ZGA2": {
+      "identifier": "ZGA2",
+      "description": "Koordinaten der letzten Gesamtansicht ZI",
+      "type": "2D"
+    },
+    "ZGA3": {
+      "identifier": "ZGA3",
+      "description": "Koordinaten der letzten Gesamtansicht ZI",
+      "type": "2D"
+    },
+    "ZGA4": {
+      "identifier": "ZGA4",
+      "description": "Koordinaten der letzten Gesamtansicht ZI",
+      "type": "2D"
+    },
+    "ZJ": {
+      "identifier": "ZJ",
+      "description": "X Y Koordinaten des Linienschwerpunktes eines Strecken-/Linien-",
+      "type": "2D"
+    },
+    "ZK": {
+      "identifier": "ZK",
+      "description": "X Y Koordinaten des Linienschwerpunktes eines Strecken-/Linien- /Konturzuges",
+      "type": "2D"
+    },
+    "ZL": {
+      "identifier": "ZL",
+      "description": "X Koordinaten des Mittelpunktes eines Kreisbogens",
+      "type": "2D"
+    },
+    "ZM": {
+      "identifier": "ZM",
+      "description": "Y Koordinaten des Mittelpunktes eines Kreisbogens",
+      "type": "2D"
+    },
+    "ZN": {
+      "identifier": "ZN",
+      "description": "Ergebnis bei Anforderung einer Auswertung (Taschenrechnerfunktion)",
+      "type": "2D"
+    },
+    "ZP": {
+      "identifier": "ZP",
+      "description": "X Koordinaten des Bildschirm – Mittelpunktes",
+      "type": "2D"
+    },
+    "ZQ": {
+      "identifier": "ZQ",
+      "description": "Y Koordinaten des Bildschirm – Mittelpunktes",
+      "type": "2D"
+    },
+    "ZS": {
+      "identifier": "ZS",
+      "description": "Punktbezeichnung des identif. Punktes oder Art des Passpunktes ZS=-1 ! ZS=-2 ? ZS=-3 ??",
+      "type": "2D"
+    },
+    "ZSC1": {
+      "identifier": "ZSC1",
+      "description": "Schraffurcode 1, Schraffurcode 2 Abstand Schraffurcode1/2 Winkel Schraffurcode 1/2",
+      "type": "2D"
+    },
+    "ZSC2": {
+      "identifier": "ZSC2",
+      "description": "Schraffurcode 1, Schraffurcode 2 Abstand Schraffurcode1/2 Winkel Schraffurcode 1/2",
+      "type": "2D"
+    },
+    "ZSD1": {
+      "identifier": "ZSD1",
+      "description": "Schraffurcode 1, Schraffurcode 2 Abstand Schraffurcode1/2 Winkel Schraffurcode 1/2",
+      "type": "2D"
+    },
+    "ZSD2": {
+      "identifier": "ZSD2",
+      "description": "Schraffurcode 1, Schraffurcode 2 Abstand Schraffurcode1/2 Winkel Schraffurcode 1/2",
+      "type": "2D"
+    },
+    "ZSW1": {
+      "identifier": "ZSW1",
+      "description": "Schraffurcode 1, Schraffurcode 2 Abstand Schraffurcode1/2 Winkel Schraffurcode 1/2",
+      "type": "2D"
+    },
+    "ZSW2": {
+      "identifier": "ZSW2",
+      "description": "Schraffurcode 1, Schraffurcode 2 Abstand Schraffurcode1/2 Winkel Schraffurcode 1/2",
+      "type": "2D"
+    },
+    "ZT": {
+      "identifier": "ZT",
+      "description": "Datenbank EIN/AUS 1/0",
+      "type": "2D"
+    },
+    "ZU": {
+      "identifier": "ZU",
+      "description": "2D/3D – Schalter (wird nur bei Makrostart belegt, 2=2D, 3=3D)",
+      "type": "2D"
+    },
+    "ZV": {
+      "identifier": "ZV",
+      "description": "Wert der letzten numerischen Eingabe",
+      "type": "2D"
+    },
+    "ZW": {
+      "identifier": "ZW",
+      "description": "X Koordinaten der linken unteren Ecke der Gesamtansicht des Zeichenteiles (ungekürzte Werte) – gesetzt bei \"Ganzes Zeichenteil\"bzw. \"Ausgewählte Figur\"",
+      "type": "2D"
+    },
+    "ZX": {
+      "identifier": "ZX",
+      "description": "Y Koordinaten der linken unteren Ecke der Gesamtansicht des Zeichenteiles (ungekürzte Werte) – gesetzt bei \"Ganzes Zeichenteil\"bzw. \"Ausgewählte Figur\"",
+      "type": "2D"
+    },
+    "ZY": {
+      "identifier": "ZY",
+      "description": "X Koord. der rechten oberen Ecke der Gesamtansicht des Zeichenteiles (ungekürzte Werte) – gesetzt bei \"Ganzes Zeichenteil\"bzw. \"Ausgewählte Figur\"",
+      "type": "2D"
+    },
+    "ZZ": {
+      "identifier": "ZZ",
+      "description": "Y Koord. der rechten oberen Ecke der Gesamtansicht des Zeichenteiles (ungekürzte Werte) – gesetzt bei \"Ganzes Zeichenteil\"bzw. \"Ausgewählte Figur\"",
+      "type": "2D"
+    },
+    "Z8_3D": {
+      "identifier": "Z8",
+      "description": "X-Koordinate Anfangspunkt Kante oder isolierter Punkt",
+      "type": "3D"
+    },
+    "Z9_3D": {
+      "identifier": "Z9",
+      "description": "Y-Kordinate Anfangspunkt Kante oder isolierter Punkt",
+      "type": "3D"
+    },
+    "ZB_3D": {
+      "identifier": "ZB",
+      "description": "Z-Koordinate Anfangspunkt Kante oder isolierter Punkt",
+      "type": "3D"
+    },
+    "ZBTP": {
+      "identifier": "ZBTP",
+      "description": "Polares Flächenträgheitsmoment",
+      "type": "3D"
+    },
+    "ZBWY": {
+      "identifier": "ZBWY",
+      "description": "Widerstandsmoment y bez. X-SP-Achse (SP=Schwerpunkt) Widerstandsmoment x bez. Y-SP-Achse",
+      "type": "3D"
+    },
+    "ZBWX": {
+      "identifier": "ZBWX",
+      "description": "Widerstandsmoment y bez. X-SP-Achse (SP=Schwerpunkt) Widerstandsmoment x bez. Y-SP-Achse",
+      "type": "3D"
+    },
+    "ZC_3D": {
+      "identifier": "ZC",
+      "description": "X-Koordinate Endpunkt Kante",
+      "type": "3D"
+    },
+    "ZD_3D": {
+      "identifier": "ZD",
+      "description": "Y-Koordinate Endpunkt Kante",
+      "type": "3D"
+    },
+    "ZE_3D": {
+      "identifier": "ZE",
+      "description": "Z-Koordinate Endpunkt Kante",
+      "type": "3D"
+    },
+    "ZCTY": {
+      "identifier": "ZCTY",
+      "description": "Kurventyp 0-Ebene, 1-Kreis, 2-Ellipse, 3-Freiform",
+      "type": "3D"
+    },
+    "ZEDZ": {
+      "identifier": "ZEDZ",
+      "description": "Anzahl identifizierter Kanten hintereinander liegend > 0",
+      "type": "3D"
+    },
+    "ZFCZ": {
+      "identifier": "ZFCZ",
+      "description": "Anzahl identifizierter Facetten hintereinander liegend > 0",
+      "type": "3D"
+    },
+    "ZFF": {
+      "identifier": "ZFF",
+      "description": "Variablen für Freiformgeometrien",
+      "type": "3D"
+    },
+    "ZFFI": {
+      "identifier": "ZFFI",
+      "description": "Die Indizierung für Freiformflächenkörper ist 0=nicht aktiv, 1=aktiv",
+      "type": "3D"
+    },
+    "ZFFJ": {
+      "identifier": "ZFFJ",
+      "description": "-1 oder 0 Es liegt kein indizierter Freiformflächenkörper vor oder die Indizierung kann nicht verwendet werden. >0 Index des Freiformflächenkörpers",
+      "type": "3D"
+    },
+    "ZFFN": {
+      "identifier": "ZFFN",
+      "description": "Default-Generierung eines leeren Körpers für die Freiformflächen ist 0 nicht erfolgt/nicht notwendig 1 erfolgt",
+      "type": "3D"
+    },
+    "ZFSX": {
+      "identifier": "ZFSX",
+      "description": "X-Koordinate Konturzug oder Flächenschwerpunkt",
+      "type": "3D"
+    },
+    "ZFSY": {
+      "identifier": "ZFSY",
+      "description": "Y-Koordinate Konturzug oder Flächenschwerpunkt",
+      "type": "3D"
+    },
+    "ZFSZ": {
+      "identifier": "ZFSZ",
+      "description": "Z-Koordinate Konturzug oder Flächenschwerpunkt",
+      "type": "3D"
+    },
+    "ZFTR": {
+      "identifier": "ZFTR",
+      "description": "0 oder 1, wenn beim Modellieren von Teile die Triangulation abgefragt wird",
+      "type": "3D"
+    },
+    "ZFTY": {
+      "identifier": "ZFTY",
+      "description": "<0-Hohlfläche",
+      "type": "3D"
+    },
+    "ZG8": {
+      "identifier": "ZG8",
+      "description": "X-Koordinate des zuletzt unter Info-3D-Punkt gewählten Punktes oder X-Koordinate des Anfangspunktes der zuletzt unter Info 3D-LE gewählten Kante",
+      "type": "3D"
+    },
+    "ZG9": {
+      "identifier": "ZG9",
+      "description": "Y-Koordinate des zuletzt unter Info-3D-Punkt gewählten Punktes oder Y-Koordinate des Anfangspunktes der zuletzt unter Info 3D-LE gewählten Kante",
+      "type": "3D"
+    },
+    "ZGB": {
+      "identifier": "ZGB",
+      "description": "Y-Koordinate des Anfangspunktes der zuletzt unter Info 3D-LE gewählten Kante Z-Koordinate des zuletzt unter Info-3D-Punkt gewählten Punktes oder Z-Koordinate des Anfangspunktes der zuletzt unter Info 3D-LE gewählten Kante",
+      "type": "3D"
+    },
+    "ZGC": {
+      "identifier": "ZGC",
+      "description": "X-Koordinate des Endpunktes der zuletzt unter Info 3D-LE gewählten Kante",
+      "type": "3D"
+    },
+    "ZGD": {
+      "identifier": "ZGD",
+      "description": "Y-Koordinate des Endpunktes der zuletzt unter Info 3D-LE gewählten Kante",
+      "type": "3D"
+    },
+    "ZGE": {
+      "identifier": "ZGE",
+      "description": "Z-Koordinate des Endpunktes der zuletzt unter Info 3D-LE gewählten Kante",
+      "type": "3D"
+    },
+    "ZHKV": {
+      "identifier": "ZHKV",
+      "description": "Existenz einer Hyperkante 0=vorhanden, 1=nicht vorhanden",
+      "type": "3D"
+    },
+    "ZIAS": {
+      "identifier": "ZIAS",
+      "description": "Nummer der aktuellen Ansicht",
+      "type": "3D"
+    },
+    "ZIAZ": {
+      "identifier": "ZIAZ",
+      "description": "Anzahl der definierten Ansichten",
+      "type": "3D"
+    },
+    "ZKTY": {
+      "identifier": "ZKTY",
+      "description": "Teiletyp eines Körpers",
+      "type": "3D"
+    },
+    "ZKV": {
+      "identifier": "ZKV",
+      "description": "Variable für Voreinstellungen bei Kantenzügen",
+      "type": "3D"
+    },
+    "ZKZL": {
+      "identifier": "ZKZL",
+      "description": "Kantenzuglänge",
+      "type": "3D"
+    },
+    "ZKZE": {
+      "identifier": "ZKZE",
+      "description": "Lineares Verbinden bei Kantenzügen 0 = gleiche Punkte-Anzahl der beiden Kantenzüge 1 = verschiedene Anzahl der beiden Kantenzüge",
+      "type": "3D"
+    },
+    "ZKZN": {
+      "identifier": "ZKZN",
+      "description": "Anzahl der Punkte bei Kantenzug",
+      "type": "3D"
+    },
+    "ZKZV": {
+      "identifier": "ZKZV",
+      "description": "-1 Interaktive Abfrage beim Verbinden von Kantenzügen",
+      "type": "3D"
+    },
+    "ZMAX": {
+      "identifier": "ZMAX",
+      "description": "X-Koordinate Maximumpunkt Hüllquader",
+      "type": "3D"
+    },
+    "ZMAY": {
+      "identifier": "ZMAY",
+      "description": "Y-Koordinate Maximumpunkt Hüllquader",
+      "type": "3D"
+    },
+    "ZMAZ": {
+      "identifier": "ZMAZ",
+      "description": "Z-Koordinate Maximumpunkt Hüllquader",
+      "type": "3D"
+    },
+    "ZMIX": {
+      "identifier": "ZMIX",
+      "description": "X-Koordinate Minimumpunkt Hüllquader",
+      "type": "3D"
+    },
+    "ZMIY": {
+      "identifier": "ZMIY",
+      "description": "Y-Koordinate Minimumpunkt Hüllquader",
+      "type": "3D"
+    },
+    "ZMIZ": {
+      "identifier": "ZMIZ",
+      "description": "Z-Koordinate Minimumpunkt Hüllquader",
+      "type": "3D"
+    },
+    "ZMXP": {
+      "identifier": "ZMXP",
+      "description": "X-Koordinate Mittelpunkt 3D",
+      "type": "3D"
+    },
+    "ZMYP": {
+      "identifier": "ZMYP",
+      "description": "Y-Koordinate Mittelpunkt 3D",
+      "type": "3D"
+    },
+    "ZMZP": {
+      "identifier": "ZMZP",
+      "description": "Z-Koordinate Mittelpunkt 3D",
+      "type": "3D"
+    },
+    "ZOFL": {
+      "identifier": "ZOFL",
+      "description": "Konturzug, Fläche, Oberfläche Volumina",
+      "type": "3D"
+    },
+    "ZOTY": {
+      "identifier": "ZOTY",
+      "description": "Objekttyp für Identifizierung",
+      "type": "3D"
+    },
+    "ZPAX": {
+      "identifier": "ZPAX",
+      "description": "X-Koordinate Anfangspunkt Vektormenü",
+      "type": "3D"
+    },
+    "ZPAY": {
+      "identifier": "ZPAY",
+      "description": "Y-Koordinate Anfangspunkt Vektormenü",
+      "type": "3D"
+    },
+    "ZPAZ": {
+      "identifier": "ZPAZ",
+      "description": "Z-Koordinate Anfangspunkt Vektormenü",
+      "type": "3D"
+    },
+    "ZPEX": {
+      "identifier": "ZPEX",
+      "description": "X-Koordinate Endpunkt Vektormenü",
+      "type": "3D"
+    },
+    "ZPEY": {
+      "identifier": "ZPEY",
+      "description": "Y-Koordinate Endpunkt Vektormenü",
+      "type": "3D"
+    },
+    "ZPEZ": {
+      "identifier": "ZPEZ",
+      "description": "Z-Koordinate Endpunkt Vektormenü",
+      "type": "3D"
+    },
+    "ZPRO": {
+      "identifier": "ZPRO",
+      "description": "Nummer des aktiven Projektes (Datenbank)",
+      "type": "3D"
+    },
+    "ZRA1": {
+      "identifier": "ZRA1",
+      "description": "Kreis, Kugel, Zylinderradius, großer Torusradius",
+      "type": "3D"
+    },
+    "ZRA2": {
+      "identifier": "ZRA2",
+      "description": "kleiner Torusradius",
+      "type": "3D"
+    },
+    "ZSUB": {
+      "identifier": "ZSUB",
+      "description": " Flag für Teilegenerierung 0-Hauptteilgenerierung 1-Nebenteilgenerierung ",
+      "type": "3D"
+    },
+    "ZYAX": {
+      "identifier": "ZYAX",
+      "description": "X-Koordinate Achsvektor (Zylinder, Kegel, Torus)",
+      "type": "3D"
+    },
+    "ZYAY": {
+      "identifier": "ZYAY",
+      "description": "Y-Koordinate Achsvektor (Zylinder, Kegel, Torus)",
+      "type": "3D"
+    },
+    "ZYAZ": {
+      "identifier": "ZYAZ",
+      "description": "Z-Koordinate Achsvektor (Zylinder, Kegel, Torus)",
+      "type": "3D"
+    },
+    "ZVKX": {
+      "identifier": "ZVKX",
+      "description": "X-Koordinate Vektor mit Betrag bei Vektormenü",
+      "type": "3D"
+    },
+    "ZVKY": {
+      "identifier": "ZVKY",
+      "description": "Y-Koordinate Vektor mit Betrag bei Vektormenü",
+      "type": "3D"
+    },
+    "ZVKZ": {
+      "identifier": "ZVKZ",
+      "description": "Z-Koordinate Vektor mit Betrag bei Vektormenü",
+      "type": "3D"
+    },
+    "ZVNX": {
+      "identifier": "ZVNX",
+      "description": "X-Koordinate Konturzug oder Flächennormalenvektor",
+      "type": "3D"
+    },
+    "ZVNY": {
+      "identifier": "ZVNY",
+      "description": "Y-Koordinate Konturzug oder Flächennormalenvektor",
+      "type": "3D"
+    },
+    "ZVNZ": {
+      "identifier": "ZVNZ",
+      "description": "Z-Koordinate Konturzug oder Flächennormalenvektor",
+      "type": "3D"
+    },
+    "ZVOL": {
+      "identifier": "ZVOL",
+      "description": "Volumen eines Teils",
+      "type": "3D"
+    },
+    "ZVSX": {
+      "identifier": "ZVSX",
+      "description": "X-Koordinate Volumenschwerpunkt",
+      "type": "3D"
+    },
+    "ZVSY": {
+      "identifier": "ZVSY",
+      "description": "Y-Koordinate Volumenschwerpunkt",
+      "type": "3D"
+    },
+    "ZVSZ": {
+      "identifier": "ZVSZ",
+      "description": "Z-Koordinate Volumenschwerpunkt",
+      "type": "3D"
+    },
+    "ZWKG": {
+      "identifier": "ZWKG",
+      "description": "Kegelwinkel",
+      "type": "3D"
+    },
+    "@": {
+      "identifier": "@",
+      "description": "Umrechnungsfaktor der Maßeinheit in Millimeter",
+      "type": "Numeric Systems Variable"
+    },
+    "@0": {
+      "identifier": "@0",
+      "description": "Umrechnungsfaktor Naturkoordinaten in Millimeter (@/@2)",
+      "type": "Numeric Systems Variable"
+    },
+    "@1": {
+      "identifier": "@1",
+      "description": "Umrechnungsfaktor Millimeter in Naturkoordinaten (@2/@)",
+      "type": "Numeric Systems Variable"
+    },
+    "@2": {
+      "identifier": "@2",
+      "description": "Maßstabszahl",
+      "type": "Numeric Systems Variable"
+    },
+    "@3A": {
+      "identifier": "@3A",
+      "description": "A Koeffizient, Hesseschen Normalform einer Geraden",
+      "type": "Numeric Systems Variable"
+    },
+    "@4B": {
+      "identifier": "@4B",
+      "description": "B Koeffizient, Hesseschen Normalform einer Geraden",
+      "type": "Numeric Systems Variable"
+    },
+    "@5C": {
+      "identifier": "@5C",
+      "description": "C Koeffizient, Hesseschen Normalform einer Geraden",
+      "type": "Numeric Systems Variable"
+    },
+    "@5": {
+      "identifier": "@5",
+      "description": "Radius eines identifizierten Kreises",
+      "type": "Numeric Systems Variable"
+    },
+    "@6": {
+      "identifier": "@6",
+      "description": "X Koordinaten des Schwerpunktes einer Figur oder eines geschlossenen Linienzuges;",
+      "type": "Numeric Systems Variable"
+    },
+    "@7": {
+      "identifier": "@7",
+      "description": "Y Koordinaten des Schwerpunktes einer Figur oder eines geschlossenen Linienzuges;",
+      "type": "Numeric Systems Variable"
+    },
+    "@8": {
+      "identifier": "@8",
+      "description": "X Koordinaten des Bezugspunktes der Konstruktion (Kürzungswert);",
+      "type": "Numeric Systems Variable"
+    },
+    "@9": {
+      "identifier": "@9",
+      "description": "Y Koordinaten des Bezugspunktes der Konstruktion (Kürzungswert);",
+      "type": "Numeric Systems Variable"
+    },
+    "@SKZ": {
+      "identifier": "@SKZ",
+      "description": "Skizziercursor ein-(ausschalten)",
+      "type": "Numeric Systems Variable"
+    },
+    "$@": {
+      "identifier": "$@",
+      "description": "Formatstring für die Umwandlung von Zahlen in Texte (`F###`), (I3), (`F1###`) usw. Dies entspricht der Fortran-Formatanweisung.",
+      "type": "Alphanumeric Systems Variable"
+    },
+    "$@0": {
+      "identifier": "$@0",
+      "description": "Name des aktiven Zeichenteiles",
+      "type": "Alphanumeric Systems Variable"
+    },
+    "$@1": {
+      "identifier": "$@1",
+      "description": "Name der aktiven Figur",
+      "type": "Alphanumeric Systems Variable"
+    },
+    "$@2": {
+      "identifier": "$@1",
+      "description": "Name der zuletzt geladenen Symboltabelle",
+      "type": "Alphanumeric Systems Variable"
+    },
+    "$@3": {
+      "identifier": "$@3",
+      "description": "Text eines identifizierten Textbezugspunktes (wird in ALT 3 und in der Textinformation gesetzt)",
+      "type": "Alphanumeric Systems Variable"
+    },
+    "$@4": {
+      "identifier": "$@4",
+      "description": "Name der Digitizerzuordnung Tablett/Bildschirm",
+      "type": "Alphanumeric Systems Variable"
+    },
+    "$@9": {
+      "identifier": "$@9",
+      "description": "leer",
+      "type": "Alphanumeric Systems Variable"
+    },
+    "$@AWV": {
+      "identifier": "$@AWV",
+      "description": "letzte Texteingabe",
+      "type": "Alphanumeric Systems Variable"
+    },
+    "$@BMH": {
+      "identifier": "$@BMH",
+      "description": "Info über Maßhilfslinien, wird bei der Funktion Bemaßungsinfo auf 1,2,3 bzw. 11,12,14 gesetzt, wenn die Maßhilfslinien ausgeblendet sind bzw. der Schalter Z-Bemaßung gesetzt ist.",
+      "type": "Alphanumeric Systems Variable"
+    }
+  }
+}
