@@ -8,7 +8,7 @@ authors = [
   { name = "manuel.stallnig", email = "manuel.stallnig@suter-schneider.ch" },
 ]
 requires-python = ">=3.12"
-dependencies = ["pygls==2.1.1", "lsprotocol==2025.0.0"]
+dependencies = ["pygls==2.1.1", "lsprotocol==2025.0.0", "tree-sitter>=0.26"]
 
 [project.scripts]
 hicad-lsp = "hicad_lsp.server:main"

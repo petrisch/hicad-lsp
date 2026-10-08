@@ -22,6 +22,8 @@ vim.lsp.config["hicad-lsp"] = {
   cmd = {
     "PATHTO/hicad-lsp/.venv/Scripts/python.exe",
     "PATHTO/hicad-lsp/src/server.py",
+    "--ts-lib",
+    "PATHTO/tree-sitter-hicad/build/hicad.dll oder .so",
   },
 
   filetypes = { "hicad" },
